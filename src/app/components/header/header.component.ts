@@ -4,8 +4,9 @@ import {InformacionService} from "../../services/informacion.service";
   selector: 'app-header',
   templateUrl: './header.component.html',
 })
+
 export class HeaderComponent {
-  constructor(public _is:InformacionService){
-    
-  }
+
+  
+  constructor(public _is:InformacionService){}
 }
