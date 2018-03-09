@@ -6,7 +6,7 @@ import {ProductosService} from "../../services/productos.service";
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
-  constructor(private _ps:ProductosService){
+  constructor(public _ps:ProductosService){
 
   }
 
